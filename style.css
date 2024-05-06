@@ -64,3 +64,42 @@ header input{
 header i{
     margin-right: 10px;
 }
+
+.main1 .right img{
+    width: 100%;
+}
+.main1 .left img{
+    width: 100px;
+}
+
+.main1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main1 > div{
+    width: 50%;
+}
+
+.main1 h1{
+    font-family: "Kaushan Script" !important;
+    font-size: 8vw;
+}
+
+.main1 h2{
+    font-size: 3vw;
+    font-style: italic;
+    font-weight: bold;
+}
+
+button{
+    text-transform: uppercase;
+    cursor: pointer;
+    color: darkgray;
+    background-color: white;
+    border: none;outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 22px;
+}
