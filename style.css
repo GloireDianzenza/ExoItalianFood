@@ -330,9 +330,25 @@ footer{
     background-color: white;
     color: black;
     display: flex;
+    padding: 0 30px;
     padding-top: 50px;
 }
 
 footer > div:first-child{
     width: 40%;
+}
+
+footer h4{
+    font-weight: 400;
+    font-size: 25px;
+}
+
+footer > div{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.icons i{
+    font-size: 30px;
 }
