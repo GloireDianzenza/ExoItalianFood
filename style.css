@@ -280,4 +280,39 @@ main.pizza{
     background-color: black;
     color: white;
     text-align: center;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.subscription h2{
+    font-size: 4.5rem;
+    margin-top: 100px;
+}
+
+.sub-field{
+    background-color: white;
+    min-width: fit-content;
+    width: 40%;
+    text-align: center;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.sub-field input{
+    width: 100%;
+    padding: 15px;
+    padding-right: 30px;
+    font-size: 25px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.sub-field button{
+    border-radius: 20px;
 }
