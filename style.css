@@ -299,7 +299,7 @@ main.pizza{
     align-self: center;
     display: flex;
     justify-content: space-between;
-    border-radius: 20px;
+    border-radius: 40px;
 }
 
 .sub-field input{
@@ -307,12 +307,32 @@ main.pizza{
     padding: 15px;
     padding-right: 30px;
     font-size: 25px;
-    border-radius: 20px;
+    border-radius: 40px;
     border: none;
     outline: none;
     background-color: transparent;
 }
 
 .sub-field button{
-    border-radius: 20px;
+    border-radius: 40px;
+    width: 200px;
+    font-size: 20px;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    background-color: darkgray;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    min-height: 300px;
+    background-color: white;
+    color: black;
+    display: flex;
+    padding-top: 50px;
+}
+
+footer > div:first-child{
+    width: 40%;
 }
