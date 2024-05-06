@@ -96,6 +96,9 @@ header i{
 button{
     text-transform: uppercase;
     cursor: pointer;
+}
+
+.main1.cta{
     color: darkgray;
     background-color: white;
     border: none;outline: none;
